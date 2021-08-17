@@ -1,0 +1,68 @@
+body
+{
+	background-image:url("https://i.pinimg.com/originals/24/ba/ae/24baae2c23b1431abed1476f0722fa31.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+	.login_div1 , .login_div2
+	{
+		background: rgb(8, 224, 62);
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+		text-align: center;
+		color:darkred;
+		border:2px solid darkred;
+
+	}
+
+
+#player1_name , #player2_name
+{
+	display: inline-block;
+	margin-left: 20px;
+}
+#word
+{
+	width: 60%;
+}
+#word_display
+{
+	letter-spacing: 5px;
+}
+#output
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float: none;
+text-align: left;
+}
+h1{
+	color:crimson;
+	font-family: cursive;
+	background-color: darkblue;
+	font-size: 40px;
+}
+#player2_name_input,#player1_name_input {
+	background-color: khaki;
+	border:2px solid darkred;
+}
+#send:hover{
+background-color: darkgreen;	
+}
+
+#word{
+	background-color: khaki;
+	border:2px solid darkred;
+}
+label{
+	font-size: 20px;
+	background-color: white;
+}
+#player_question,#player_answer,#player1_score,#player2_score{
+	font-size:25px;
+	background-color: white;
+}
